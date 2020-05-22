@@ -35,14 +35,17 @@ description : configure le nom utilisé pour signer les paquets, soit l'auteur.
 ===============================
 
 commande : git config user.email <email>
-
 description : configure l'adresse email utilisée pour signer les paquets.
 
 ================================
 
 commande : git log
-
 description : affiche l'historique des commits réalisés. Pour quitter cette commande il
 est souvent nécessait d'appuyer sur "q".
 
 ================================
+
+commande : git remote add origin <url>
+description : configure le projet pour l'associer à un dépôt git sur github.
+Le dépôt distant est appelé "origin" (c'est une convention). Cette configuratio est à faire
+une fois par projet git, et seulement si l'on souhaite le partager/le sauvegarder sur github.
