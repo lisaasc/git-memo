@@ -37,3 +37,12 @@ description : configure le nom utilisé pour signer les paquets, soit l'auteur.
 commande : git config user.email <email>
 
 description : configure l'adresse email utilisée pour signer les paquets.
+
+================================
+
+commande : git log
+
+description : affiche l'historique des commits réalisés. Pour quitter cette commande il
+est souvent nécessait d'appuyer sur "q".
+
+================================
